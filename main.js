@@ -70,6 +70,7 @@ function matchWords(){
 function checkStatus(){
     if(time===0){
         message.innerHTML="game over"
+        scoreDisplay.innerHTML=0
     }
 }
 
@@ -77,5 +78,5 @@ function countDown(){
     if(time>0)
         time--
         timeDisplay.innerHTML=time
-        score =-1  
+       
 }
